@@ -3,14 +3,14 @@
 #include "gpiolib_reg.c"
 
 #include <stdint.h>
-#include <stdio.h>				//for the printf() function
+#include <stdio.h>			//for the printf() function
 #include <fcntl.h>
-#include <linux/watchdog.h> 	//needed for the watchdog specific constants
+#include <linux/watchdog.h> 		//needed for the watchdog specific constants
 #include <unistd.h> 			//needed for sleep
 #include <sys/ioctl.h> 			//needed for the ioctl function
 #include <stdlib.h> 			//for atoi
-#include <time.h> 				//for time_t and the time() function
-#include <sys/time.h>           //for gettimeofday()
+#include <time.h> 			//for time_t and the time() function
+#include <sys/time.h>          		//for gettimeofday()
 #include <errno.h>
 #include <string.h>
 
